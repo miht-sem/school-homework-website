@@ -1,0 +1,51 @@
+body {
+  background-color: #16161a;
+  background: #16161a url(img/cat.gif) no-repeat center center;
+  margin-left: 0;
+  text-align: center;
+}
+.design {
+  display: inline-block;
+  padding: 20px 30px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid #010101;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* font-weight: bold; */
+  color: #fffffe;
+  background-color: #7f5af0;
+}
+.SEMS {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  width: 500px;
+  height: 400px;
+  -webkit-filter: drop-shadow(3px 5px 5px #000);
+  filter: drop-shadow(3px 5px 5px #000);
+}
+.mainCont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center
+}
+.container1:hover .design {
+  transform: scale(1.2);
+  text-shadow: 2px 2px 0 black;
+  box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.5);
+}
+.container2:hover .design {
+    transform: scale(1.2);
+    text-shadow: 2px 2px 0 black;
+    box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.5);
+  }
+/* .container:hover .design {
+    transform: rotate(360deg);
+  } */
+.design1 {
+  transition: 0.5s;
+}

@@ -1,0 +1,63 @@
+body {background: linear-gradient(to right, rgb(37, 36, 117), rgb(151, 19, 100));}
+h1{margin-left:0.6em; font-family: 'Times New Roman', Times, serif;   transition: 0.7s;
+    text-shadow: 1px 1px 0 #FFE3BD; font-size:40px; color:#ed7e7e;}
+h2,h4{
+    margin-left:0.5em;
+    font-size:30px; 
+    color:#ed7e7e;
+    transition: 0.7s;
+    text-shadow: 1px 1px 0 #FFE3BD;
+}
+h3{margin-left:0.5em; font-size:25px; color:#ff4d91;    transition: 0.7s;
+    text-shadow: 1px 1px 0 #FFE3BD;}
+ol{color:#9e919e;}
+ul{color:#9e919e;}
+blockquote{color:#9e919e;}
+figcaption{color:#d47b1c; font-size:17px;}
+table{color:#99f7c7; text-align: right; width: 300px; margin: auto;}
+
+h1:hover {
+  text-shadow: 1px 1px 0 rgb(80, 72, 62), 2px 2px 0 rgb(47, 42, 35), 3px 3px 0 rgb(56, 53, 49), 4px 4px 0 #FFE3BD, 5px 5px 0 #FFE3BD;
+}
+h2:hover {
+  text-shadow: 1px 1px 0 rgb(80, 72, 62), 2px 2px 0 rgb(47, 42, 35), 3px 3px 0 rgb(56, 53, 49), 4px 4px 0 #FFE3BD, 5px 5px 0 #FFE3BD;
+}
+h3:hover {
+    text-shadow: 1px 1px 0 rgb(80, 72, 62), 2px 2px 0 rgb(47, 42, 35), 3px 3px 0 rgb(56, 53, 49), 4px 4px 0 #FFE3BD, 5px 5px 0 #FFE3BD;
+  }
+  h4:hover {
+    text-shadow: 1px 1px 0 rgb(80, 72, 62), 2px 2px 0 rgb(47, 42, 35), 3px 3px 0 rgb(56, 53, 49), 4px 4px 0 #FFE3BD, 5px 5px 0 #FFE3BD;
+  }
+p{text-align: center; color: lightcoral}
+.main{
+   
+    text-align: center; 
+  
+}
+.design{
+    display: inline-block;
+    padding: 20px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px; 
+    border: 1px solid #8bd3dd; 
+    font-size: 20px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-weight: bold; */
+    color: #001858; 
+    background-color: #f582ae;
+}
+.main{
+    margin: auto 55% auto 45%;
+  }
+  .main:hover .design {
+    transform: scale(1.2);
+    text-shadow: 2px 2px 0 white;
+    box-shadow: 0 15px 15px -10px rgba(0,0,0, .5);
+  }
+  /* .container:hover .design {
+    transform: rotate(360deg);
+  } */
+  .design1{
+    transition: .5s;
+  }
